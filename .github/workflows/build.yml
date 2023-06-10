@@ -155,7 +155,7 @@ jobs:
           cache-from: type=registry,ref=${{ github.repository }}:cache
           cache-to: type=registry,ref=${{ github.repository }}:cache,mode=max  
           
-uses: nateraw/huggingface-sync-action@v0.0.5
+uses: spaces/supertv/GOTS-AI
 with:
   # The github repo you are syncing from. Required.
   github_repo_id: verycafe/go-proxy-bingai
